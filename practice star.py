@@ -1,8 +1,8 @@
 import turtle
 
-#star = turtle.Turtle()
-# Designing the letter S
+turtle.showturtle()
 
+# Designing the letter S
 turtle.pensize(8)
 turtle.color("turquoise")
 turtle.backward(50)
@@ -13,29 +13,25 @@ turtle.forward(50)
 turtle.right(90)
 turtle.forward(50)
 turtle.right(90)
-turtle.forward(50)     
+turtle.forward(50)
 
-for i in range(10):
-        (i)
-
+# Drawing the letter G
 turtle.penup()
 turtle.goto(75, -50)
 turtle.pendown()
 
-def drawG():
+turtle.pensize(4)
+turtle.color("midnightblue")
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(20)
+turtle.right(90)
+turtle.forward(15)
+turtle.left(90 * 2)
+turtle.forward(30)
 
-    for each in range(1):
-
-        turtle.forward(50)
-        turtle.left(90)
-        turtle.forward(50)
-        turtle.left(90)
-        turtle.forward(50)
-        turtle.left(90)
-        turtle.forward(20)
-        turtle.right(90)
-        turtle.forward(15)
-        turtle.left(90 * 2)
-        turtle.forward(30)
-        
-drawG()
+turtle.done()
